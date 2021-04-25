@@ -98,8 +98,7 @@ class PeopleTable extends React.Component {
 
     onUnselectAllClick = () => {
         this.setState({
-            selectedPeople: [],
-            allChecked: false
+            selectedPeople: []
         });
     }
 
